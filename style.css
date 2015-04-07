@@ -1,0 +1,69 @@
+/* general styles */
+
+
+body{
+	font-family:'Raleway',arial;
+	font-size:16px;
+	color:#fff;
+	font-weight:400;
+	letter-spacing:1px;
+	background:#003153;
+
+
+} 
+
+
+/* header*/
+  header{ 
+      background:url(images/bg2.jpg) center  no-repeat;
+      height:760px;
+      width:100%;
+     
+        
+ }
+ /*mainrow*/
+ .mainrow{
+  background: #fff;
+ }
+
+
+ /* navebar */
+
+ .navbar{
+ 	background: 0;
+ 	padding: 0;
+ 	border: 0;
+
+ }
+
+ 
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+  	background: 0;
+  	color: #000;
+  	 }
+
+
+  	 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{
+  		color: #2980b9;
+  		float: right;
+  		
+  	}
+    .mainmenu li a{
+      font-size: 16px;
+      font-weight: bold;
+
+    }
+        #mainmenu ul {float: right;}
+    #mainmenu ul li{float: right;}
+    .mainmenu,.mainmenu li{
+      float: right;
+    }
+    .search{
+      margin-top: 20px;
+    }
+    .InputForm:nth-child(1) {
+      margin-bottom: 10px;
+      
+    }
